@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: alexBrush;
+    src: url(./AlexBrush-Regular.ttf);
+}
+
+.menu {
+    height: 10vh;
+    width: 100%;
+    background-color: #1C658C;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.divTitulo {
+    width: 26%;
+    font-size: 50px;
+    text-align: center;
+    color: #ffff;
+    font-family: alexBrush;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 35px;
+    color: #ffff;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container li {
+    display: flex;
+    flex-direction: row;
+}
+
+.container ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.divImagemCallCenter {
+    background-color: #1C658C;
+    width: 100%;
+    height: 100vh;
+}
+
+.imagemCallCenter {
+    background-image: url(./mulherCallCenter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    border-radius: 60px;
+}
+
+.divTextoChamada {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.textoChamada {
+    font-size: 40px;
+    color: #ffff;
+}
+
+.nome {
+    font-family: alexBrush;
+}
+
+.textoChamadaDois {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.chamadaCadastro {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.divBotoes {
+    justify-content: flex-end;
+}
+
+.botaoCadastro {
+    width: 15%;
+    height: 8vh;
+    background-color: #1C658C;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 20px;
+    border: #1C658C solid 2px;
+    font-weight: bold;
+}
+
+.botaoCadastro:hover {
+    box-shadow: 0px 3px 10px #fff;
+
+}
+
+.botaoLogin {
+    width: 15%;
+    height: 8vh;
+    background-color: #ffff;
+    border-radius: 10px;
+    border: #1C658C solid 3px;
+    color: #1C658C;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botaoLogin:hover {
+    box-shadow: 0px 3px 10px #1C658C;
+}
+
+.problemasEmpresas {
+    background-color: #1C658C;
+    width: 100%;
+    height: 80vh;
+    padding-top: 5%;
+
+}
+
+.tituloProblemaEmpresa {
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    margin-left: 5%;
+}
+
+.todasDivProblemas {
+    padding-top: 8%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px;
+    grid-gap: 5%;
+    /* justify-content: space-evenly; */
+
+}
+
+.divProblemas {
+    background-color: #fff;
+    width: 50%;
+    height: 50vh;
+}
+
+.nossasSolucoes {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
