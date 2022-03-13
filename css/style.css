@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: alexBrush;
-    src: url(./AlexBrush-Regular.ttf);
+    src: url(../fonts/AlexBrush-Regular.ttf);
 }
 
 .menu {
@@ -52,7 +52,10 @@ body {
     display: flex;
     flex-direction: row;
 }
+.container li:hover {
 
+    color: #008E89;
+}
 .container ul {
     width: 100%;
     display: flex;
@@ -73,7 +76,7 @@ a {
 }
 
 .imagemCallCenter {
-    background-image: url(./mulherCallCenter.png);
+    background-image: url(../imgs/mulherCallCenter.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -87,11 +90,13 @@ a {
     justify-content: center;
     flex-direction: column;
     margin-left: 2%;
+   
 }
 
 .textoChamada {
-    font-size: 40px;
+    font-size: 60px;
     color: #ffff;
+    margin-top: 4%;
 }
 
 .nome {
